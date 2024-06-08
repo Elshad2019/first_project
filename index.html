@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Elsad Agasirinov </title>
+    <meta name="keyword" content="Elsad Agasirinov">
+    <meta name="description" content="Elsad Agasirinov">
+    <!--Font family-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font awesom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="main.css">
+    <!--table-->
+    <link rel="stylesheet" media="(max-width:768px)" href="table.css">
+    <!--Mobile-->
+    <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+</head>
+<body>
+  <header class="bg-dark-blue">
+    <div class="container">
+        <nav id="navbar" >
+            <h1 class="heading-small">Elsad Agasirinov</h1>
+    
+            <ul>
+                <li>
+                    <a href="#home">Ana Sayfa</a>
+                </li>
+                <li>
+                    <a href="#training">Dersler</a>
+                </li>
+                <li>
+                    <a href="#courses">Kurslar</a>
+                </li>
+                <li>
+                    <a href="#contact">Elaqe</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+   </header>
+
+   <section id="home">
+       <div id="img">
+           <img src="picture.jpg" alt="Elsad Agasirinov">
+        </div>
+
+       <div class="name text-center">
+           <h2 class="heading-big">Elsad Agasirinov</h2>
+           <p>Computer Engineer | Founder of Yazilim Bilimi</p>
+       </div>
+           <a href="#courses" class="btn  btn-primary">Kurslara Get</a>
+   </section>
+
+   <section id="training" class="bg-dark-blue">
+       <h3 class="text-center heading-medium">Egitimler</h3>
+
+       <div class="items">
+           
+           <article class="item">
+               <i class="fa fa-pencil-alt"></i>
+               <h3>Sinif Ici Egitimler</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, atque?</p>
+           </article>
+
+           <article class="item">
+            <i class="fa fa-pencil-alt"></i>
+            <h3>Online Icerikler</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, atque?</p>
+        </article>
+
+        <article class="item">
+            <i class="fa fa-pencil-alt"></i>
+            <h3>Konfranslar</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, atque?</p>
+        </article>
+       </div>
+   </section>
+
+   <section id="courses">
+       <h3 class="text-center heading-medium">Kurslar</h3>
+
+       <div class="container">
+           <div class="courses">
+               <!-- Course 1-->
+               <div class="course">
+                   <div class="course-image">
+                       <img src="php.jpg" alt="Python" width="300" height="180">
+                       <span>%90 Endirim</span>
+                   </div>
+                   <div class="course-info">
+                       <div class="title">
+                        (40+ Saat) Python | Sifirdan ireli seviyyeye programlama (2020)
+                       </div>
+                       <div class="description">
+                           (40+ Saat) Python | Sifirdan ireli seviyyeye programlama (2020)
+                        </div>
+                       <div class="instructor">Elshad Aghashirinov Yazilim Bilimi</div>
+                       <div class="rating">4.6 | (19990 Oylama)</div>
+                   </div>
+               </div>
+
+               <!-- Course 2-->
+               <div class="course">
+                <div class="course-image">
+                    <img src="java.jpg" alt="Python" width="300" height="180">
+                    <span>%90 Endirim</span>
+                </div>
+                <div class="course-info">
+                    <div class="title">
+                        Komple Java Gelistirici Kursu
+                    </div>
+                    <div class="description">
+                        Komple Java Gelistirici Kursu | Sifirdan Java Ogrenin
+                     </div>
+                    <div class="instructor">Elshad Aghashirinov Yazilim Bilimi</div>
+                    <div class="rating">4.6 | (7000 Oylama)</div>
+                </div>
+            </div>
+
+            <!-- Course 3-->
+            <div class="course">
+                <div class="course-image">
+                    <img src="js.jpg" alt="Python" width="300" height="180">
+                    <span>%90 Endirim</span>
+                </div>
+                <div class="course-info">
+                    <div class="title">
+                     Komple Modern JavaScript Kursu
+                    </div>
+                    <div class="description">
+                     Komple Modern JavaScript Kursu-ES6+
+                     </div>
+                    <div class="instructor">Elshad Aghashirinov Yazilim Bilimi</div>
+                    <div class="rating">4.7 | (2000 Oylama)</div>
+                </div>
+            </div>
+           </div>
+       </div>
+   </section>
+
+   <footer id="contact" class="bg-dark-blue">
+       <div class="contact-form">
+           <form action="">
+               <h4 class="text-center heading-medium">Bana Ulasin</h4>
+
+               <div class="form-group">
+                   <label for="name">Isim</label>
+                   <input type="text" class="form-control" name="name" id="name" placeholder="Isim"> 
+               </div>
+
+               <div class="form-group">
+                <label for="email">Emal</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="E-mail"> 
+               </div>
+
+               <div class="form-group">
+                <label for="message">Mesaj</label>
+                <textarea name="message" id="message" class="form-control" rows="5" placeholder="Mesajiniz..."></textarea>
+               </div>
+
+               <button type="submit" class="btn btn-block">Gonder</button>
+           </form>
+
+          <ul>
+              <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+             </li>
+             <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+             </li>
+             <li>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+             </li>
+          </ul>
+
+       </div>
+   </footer>
+</body>
+</html>
